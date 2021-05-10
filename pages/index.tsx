@@ -1,7 +1,6 @@
 
 import { Grid, Heading, Text, Flex, Image, Input, Textarea, Link, Button, } from '@chakra-ui/core'
 
-<link rel="stylesheet" href="/cardápio" />
 
 export default function Home() {
   return (
