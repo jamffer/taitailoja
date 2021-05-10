@@ -1,6 +1,8 @@
 
 import { Grid, Heading, Text, Flex, Image, Input, Textarea, Link, Button, } from '@chakra-ui/core'
 
+<link rel="stylesheet" href="/cardápio" />
+
 export default function Home() {
   return (
     <Grid
@@ -67,6 +69,7 @@ export default function Home() {
         </Link>
 
         <Button
+          variant="link"
           backgroundColor="gray.700"
           height="50px"
           borderRadius="sm"
