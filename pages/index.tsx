@@ -34,7 +34,7 @@ export default function Home() {
       <Flex 
         gridArea="form"
         height="100%"
-        backgroundColor="purple.500"
+        backgroundColor="purple.300"
         borderRadius="md"
         flexDir="column"
         alignItems="stretch"
@@ -52,7 +52,7 @@ export default function Home() {
         backgroundColor="gray.700"
         focusBorderColor="purple.100"
         borderRadius="sm"
-        placeholder="Oi soler..."
+        placeholder="placeholder..."
         marginTop={4}
        />
         <Link 
@@ -81,7 +81,7 @@ export default function Home() {
         <Text
           textAlign="center"
           fontSize="sm"
-          color="gray.300"
+          color="gray.600"
           marginTop={6}
         >
           Compartilha o seu sorvete com a gente no {" "}

@@ -1,0 +1,217 @@
+self["webpackHotUpdate_N_E"]("pages/index",{
+
+/***/ "./pages/index.tsx":
+/*!*************************!*\
+  !*** ./pages/index.tsx ***!
+  \*************************/
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": function() { return /* binding */ Home; }
+/* harmony export */ });
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _chakra_ui_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @chakra-ui/core */ "./node_modules/@chakra-ui/core/dist/es/index.js");
+/* module decorator */ module = __webpack_require__.hmd(module);
+
+var _jsxFileName = "C:\\Users\\Usu\xE1rio\\Desktop\\sitetest\\taitailoja\\pages\\index.tsx";
+
+function Home() {
+  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_core__WEBPACK_IMPORTED_MODULE_1__.Grid, {
+    as: "main",
+    height: "100vh",
+    templateColumns: "1fr 480px 480px 1fr",
+    templateRows: "1fr 480px 1fr",
+    templateAreas: " '. . . .' '. logo form .' '. . . .' ",
+    justifyContent: "center",
+    alignItems: "center",
+    children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_core__WEBPACK_IMPORTED_MODULE_1__.Flex, {
+      gridArea: "logo",
+      flexDir: "column",
+      alignItems: "",
+      children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_core__WEBPACK_IMPORTED_MODULE_1__.Image, {
+        objectFit: "cover",
+        src: "/w.png",
+        alt: "Taitai",
+        width: "220px",
+        height: "150px"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 10
+      }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_core__WEBPACK_IMPORTED_MODULE_1__.Heading, {
+        size: "xl",
+        lineHeight: "shorter",
+        marginTop: 12,
+        children: "Pedido mais moderno \xE9 na taitai! Realize ele agora!"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 10
+      }, this)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_core__WEBPACK_IMPORTED_MODULE_1__.Flex, {
+      gridArea: "form",
+      height: "100%",
+      backgroundColor: "purple.300",
+      borderRadius: "md",
+      flexDir: "column-reverse",
+      alignItems: "stretch",
+      padding: 12,
+      children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_core__WEBPACK_IMPORTED_MODULE_1__.Input, {
+        height: "50px",
+        backgroundColor: "gray.700",
+        focusBorderColor: "purple.100",
+        borderRadius: "sm",
+        placeholder: "Nome"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 8
+      }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_core__WEBPACK_IMPORTED_MODULE_1__.Textarea, {
+        height: "200px",
+        backgroundColor: "gray.700",
+        focusBorderColor: "purple.100",
+        borderRadius: "sm",
+        placeholder: "Oi soler...",
+        marginTop: 4
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 50,
+        columnNumber: 8
+      }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_core__WEBPACK_IMPORTED_MODULE_1__.Link, {
+        href: "https://taitaisorvetes.goomer.app/",
+        isExternal: true,
+        alignSelf: "flex-start",
+        marginTop: 2,
+        fontSize: "sm",
+        color: "gray.550",
+        fontWeight: "bold",
+        _hover: {
+          color: 'gray.700'
+        },
+        children: "No conforto da casa?: pe\xE7a delivery!"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 58,
+        columnNumber: 9
+      }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_core__WEBPACK_IMPORTED_MODULE_1__.Button, {
+        variant: "link",
+        backgroundColor: "gray.700",
+        height: "50px",
+        borderRadius: "sm",
+        marginTop: 6,
+        _hover: {
+          backgroundColor: 'gray.900'
+        },
+        children: "ENTRAR"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 70,
+        columnNumber: 9
+      }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_core__WEBPACK_IMPORTED_MODULE_1__.Text, {
+        textAlign: "center",
+        fontSize: "sm",
+        color: "gray.300",
+        marginTop: 6,
+        children: ["Compartilha o seu sorvete com a gente no ", " ", /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_core__WEBPACK_IMPORTED_MODULE_1__.Link, {
+          href: "https://www.instagram.com/taitaibelem/?hl=pt-br",
+          isExternal: true,
+          color: "gray.550",
+          fontWeight: "bold",
+          _hover: {
+            color: 'purple.700'
+          },
+          children: "Instagram!"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 88,
+          columnNumber: 11
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 81,
+        columnNumber: 9
+      }, this)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 7
+    }, this)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 7,
+    columnNumber: 5
+  }, this);
+}
+_c = Home;
+
+var _c;
+
+$RefreshReg$(_c, "Home");
+
+;
+    var _a, _b;
+    // Legacy CSS implementations will `eval` browser code in a Node.js context
+    // to extract CSS. For backwards compatibility, we need to check we're in a
+    // browser context before continuing.
+    if (typeof self !== 'undefined' &&
+        // AMP / No-JS mode does not inject these helpers:
+        '$RefreshHelpers$' in self) {
+        var currentExports = module.__proto__.exports;
+        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;
+        // This cannot happen in MainTemplate because the exports mismatch between
+        // templating and execution.
+        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports, module.id);
+        // A module can be accepted automatically based on its exports, e.g. when
+        // it is a Refresh Boundary.
+        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports)) {
+            // Save the previous exports on update so we can compare the boundary
+            // signatures.
+            module.hot.dispose(function (data) {
+                data.prevExports = currentExports;
+            });
+            // Unconditionally accept an update to this module, we'll check if it's
+            // still a Refresh Boundary later.
+            module.hot.accept();
+            // This field is set when the previous version of this module was a
+            // Refresh Boundary, letting us know we need to check for invalidation or
+            // enqueue an update.
+            if (prevExports !== null) {
+                // A boundary can become ineligible if its exports are incompatible
+                // with the previous exports.
+                //
+                // For example, if you add/remove/change exports, we'll want to
+                // re-execute the importing modules, and force those components to
+                // re-render. Similarly, if you convert a class component to a
+                // function, we want to invalidate the boundary.
+                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)) {
+                    module.hot.invalidate();
+                }
+                else {
+                    self.$RefreshHelpers$.scheduleUpdate();
+                }
+            }
+        }
+        else {
+            // Since we just executed the code for the module, it's possible that the
+            // new exports made it ineligible for being a boundary.
+            // We only care about the case when we were _previously_ a boundary,
+            // because we already accepted this update (accidental side effect).
+            var isNoLongerABoundary = prevExports !== null;
+            if (isNoLongerABoundary) {
+                module.hot.invalidate();
+            }
+        }
+    }
+
+
+/***/ })
+
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvaW5kZXgudHN4Il0sIm5hbWVzIjpbIkhvbWUiLCJjb2xvciIsImJhY2tncm91bmRDb2xvciJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUNBO0FBR2UsU0FBU0EsSUFBVCxHQUFnQjtBQUM3QixzQkFDRSw4REFBQyxpREFBRDtBQUNBLE1BQUUsRUFBQyxNQURIO0FBRUEsVUFBTSxFQUFDLE9BRlA7QUFHQSxtQkFBZSxFQUFDLHFCQUhoQjtBQUlBLGdCQUFZLEVBQUMsZUFKYjtBQUtBLGlCQUFhLEVBQUMsdUNBTGQ7QUFVQSxrQkFBYyxFQUFDLFFBVmY7QUFXQSxjQUFVLEVBQUMsUUFYWDtBQUFBLDRCQWFFLDhEQUFDLGlEQUFEO0FBQU0sY0FBUSxFQUFDLE1BQWY7QUFBc0IsYUFBTyxFQUFDLFFBQTlCO0FBQXVDLGdCQUFVLEVBQUMsRUFBbEQ7QUFBQSw4QkFDRyw4REFBQyxrREFBRDtBQUNBLGlCQUFTLEVBQUMsT0FEVjtBQUVBLFdBQUcsRUFBQyxRQUZKO0FBR0EsV0FBRyxFQUFDLFFBSEo7QUFJQSxhQUFLLEVBQUMsT0FKTjtBQUtBLGNBQU0sRUFBQztBQUxQO0FBQUE7QUFBQTtBQUFBO0FBQUEsY0FESCxlQVNHLDhEQUFDLG9EQUFEO0FBQVMsWUFBSSxFQUFDLElBQWQ7QUFBbUIsa0JBQVUsRUFBQyxTQUE5QjtBQUF3QyxpQkFBUyxFQUFFLEVBQW5EO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGNBVEg7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFlBYkYsZUEyQkUsOERBQUMsaURBQUQ7QUFDRSxjQUFRLEVBQUMsTUFEWDtBQUVFLFlBQU0sRUFBQyxNQUZUO0FBR0UscUJBQWUsRUFBQyxZQUhsQjtBQUlFLGtCQUFZLEVBQUMsSUFKZjtBQUtFLGFBQU8sRUFBQyxnQkFMVjtBQU1FLGdCQUFVLEVBQUMsU0FOYjtBQU9FLGFBQU8sRUFBRSxFQVBYO0FBQUEsOEJBU0MsOERBQUMsa0RBQUQ7QUFDQyxjQUFNLEVBQUMsTUFEUjtBQUVDLHVCQUFlLEVBQUMsVUFGakI7QUFHQyx3QkFBZ0IsRUFBQyxZQUhsQjtBQUlDLG9CQUFZLEVBQUMsSUFKZDtBQUtDLG1CQUFXLEVBQUM7QUFMYjtBQUFBO0FBQUE7QUFBQTtBQUFBLGNBVEQsZUFnQkMsOERBQUMscURBQUQ7QUFDQyxjQUFNLEVBQUMsT0FEUjtBQUVDLHVCQUFlLEVBQUMsVUFGakI7QUFHQyx3QkFBZ0IsRUFBQyxZQUhsQjtBQUlDLG9CQUFZLEVBQUMsSUFKZDtBQUtDLG1CQUFXLEVBQUMsYUFMYjtBQU1DLGlCQUFTLEVBQUU7QUFOWjtBQUFBO0FBQUE7QUFBQTtBQUFBLGNBaEJELGVBd0JFLDhEQUFDLGlEQUFEO0FBQ0UsWUFBSSxFQUFDLG9DQURQO0FBQzRDLGtCQUFVLE1BRHREO0FBRUUsaUJBQVMsRUFBQyxZQUZaO0FBR0UsaUJBQVMsRUFBRSxDQUhiO0FBSUUsZ0JBQVEsRUFBQyxJQUpYO0FBS0UsYUFBSyxFQUFDLFVBTFI7QUFNRSxrQkFBVSxFQUFDLE1BTmI7QUFPRSxjQUFNLEVBQUU7QUFBRUMsZUFBSyxFQUFFO0FBQVQsU0FQVjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxjQXhCRixlQW9DRSw4REFBQyxtREFBRDtBQUNFLGVBQU8sRUFBQyxNQURWO0FBRUUsdUJBQWUsRUFBQyxVQUZsQjtBQUdFLGNBQU0sRUFBQyxNQUhUO0FBSUUsb0JBQVksRUFBQyxJQUpmO0FBS0UsaUJBQVMsRUFBRSxDQUxiO0FBTUUsY0FBTSxFQUFFO0FBQUVDLHlCQUFlLEVBQUU7QUFBbkIsU0FOVjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxjQXBDRixlQStDRSw4REFBQyxpREFBRDtBQUNFLGlCQUFTLEVBQUMsUUFEWjtBQUVFLGdCQUFRLEVBQUMsSUFGWDtBQUdFLGFBQUssRUFBQyxVQUhSO0FBSUUsaUJBQVMsRUFBRSxDQUpiO0FBQUEsZ0VBTTRDLEdBTjVDLGVBT0UsOERBQUMsaURBQUQ7QUFDRSxjQUFJLEVBQUMsaURBRFA7QUFDeUQsb0JBQVUsTUFEbkU7QUFFRSxlQUFLLEVBQUMsVUFGUjtBQUdFLG9CQUFVLEVBQUMsTUFIYjtBQUlFLGdCQUFNLEVBQUU7QUFBRUQsaUJBQUssRUFBRTtBQUFULFdBSlY7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsZ0JBUEY7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGNBL0NGO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQTNCRjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsVUFERjtBQStGRDtLQWhHdUJELEkiLCJmaWxlIjoic3RhdGljL3dlYnBhY2svcGFnZXMvaW5kZXguYmY3NDgwODljYzZhYjZkZjM1MDIuaG90LXVwZGF0ZS5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuaW1wb3J0IHsgR3JpZCwgSGVhZGluZywgVGV4dCwgRmxleCwgSW1hZ2UsIElucHV0LCBUZXh0YXJlYSwgTGluaywgQnV0dG9uLCB9IGZyb20gJ0BjaGFrcmEtdWkvY29yZSdcblxuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIb21lKCkge1xuICByZXR1cm4gKFxuICAgIDxHcmlkXG4gICAgYXM9XCJtYWluXCJcbiAgICBoZWlnaHQ9XCIxMDB2aFwiXG4gICAgdGVtcGxhdGVDb2x1bW5zPVwiMWZyIDQ4MHB4IDQ4MHB4IDFmclwiXG4gICAgdGVtcGxhdGVSb3dzPVwiMWZyIDQ4MHB4IDFmclwiXG4gICAgdGVtcGxhdGVBcmVhcz1cIlxuICAgICcuIC4gLiAuJ1xuICAgICcuIGxvZ28gZm9ybSAuJ1xuICAgICcuIC4gLiAuJ1xuICAgIFwiXG4gICAganVzdGlmeUNvbnRlbnQ9XCJjZW50ZXJcIlxuICAgIGFsaWduSXRlbXM9XCJjZW50ZXJcIlxuICAgID5cbiAgICAgIDxGbGV4IGdyaWRBcmVhPVwibG9nb1wiIGZsZXhEaXI9XCJjb2x1bW5cIiBhbGlnbkl0ZW1zPVwiXCI+XG4gICAgICAgICA8SW1hZ2UgICAgICAgICAgICAgICAgIFxuICAgICAgICAgb2JqZWN0Rml0PVwiY292ZXJcIlxuICAgICAgICAgc3JjPVwiL3cucG5nXCIgXG4gICAgICAgICBhbHQ9XCJUYWl0YWlcIiBcbiAgICAgICAgIHdpZHRoPVwiMjIwcHhcIlxuICAgICAgICAgaGVpZ2h0PVwiMTUwcHhcIlxuICAgICAgICAgLz5cblxuICAgICAgICAgPEhlYWRpbmcgc2l6ZT1cInhsXCIgbGluZUhlaWdodD1cInNob3J0ZXJcIiBtYXJnaW5Ub3A9ezEyfT5cbiAgICAgICAgICBQZWRpZG8gbWFpcyBtb2Rlcm5vIMOpIG5hIHRhaXRhaSEgUmVhbGl6ZSBlbGUgYWdvcmEhXG4gICAgICAgIDwvSGVhZGluZz5cbiAgICAgIDwvRmxleD5cblxuICAgICAgPEZsZXggXG4gICAgICAgIGdyaWRBcmVhPVwiZm9ybVwiXG4gICAgICAgIGhlaWdodD1cIjEwMCVcIlxuICAgICAgICBiYWNrZ3JvdW5kQ29sb3I9XCJwdXJwbGUuMzAwXCJcbiAgICAgICAgYm9yZGVyUmFkaXVzPVwibWRcIlxuICAgICAgICBmbGV4RGlyPVwiY29sdW1uLXJldmVyc2VcIlxuICAgICAgICBhbGlnbkl0ZW1zPVwic3RyZXRjaFwiXG4gICAgICAgIHBhZGRpbmc9ezEyfVxuICAgICAgPlxuICAgICAgIDxJbnB1dFxuICAgICAgICBoZWlnaHQ9XCI1MHB4XCJcbiAgICAgICAgYmFja2dyb3VuZENvbG9yPVwiZ3JheS43MDBcIlxuICAgICAgICBmb2N1c0JvcmRlckNvbG9yPVwicHVycGxlLjEwMFwiXG4gICAgICAgIGJvcmRlclJhZGl1cz1cInNtXCJcbiAgICAgICAgcGxhY2Vob2xkZXI9XCJOb21lXCJcbiAgICAgICAvPlxuICAgICAgIDxUZXh0YXJlYVxuICAgICAgICBoZWlnaHQ9XCIyMDBweFwiXG4gICAgICAgIGJhY2tncm91bmRDb2xvcj1cImdyYXkuNzAwXCJcbiAgICAgICAgZm9jdXNCb3JkZXJDb2xvcj1cInB1cnBsZS4xMDBcIlxuICAgICAgICBib3JkZXJSYWRpdXM9XCJzbVwiXG4gICAgICAgIHBsYWNlaG9sZGVyPVwiT2kgc29sZXIuLi5cIlxuICAgICAgICBtYXJnaW5Ub3A9ezR9XG4gICAgICAgLz5cbiAgICAgICAgPExpbmsgXG4gICAgICAgICAgaHJlZj1cImh0dHBzOi8vdGFpdGFpc29ydmV0ZXMuZ29vbWVyLmFwcC9cIiBpc0V4dGVybmFsXG4gICAgICAgICAgYWxpZ25TZWxmPVwiZmxleC1zdGFydFwiXG4gICAgICAgICAgbWFyZ2luVG9wPXsyfVxuICAgICAgICAgIGZvbnRTaXplPVwic21cIlxuICAgICAgICAgIGNvbG9yPVwiZ3JheS41NTBcIlxuICAgICAgICAgIGZvbnRXZWlnaHQ9XCJib2xkXCJcbiAgICAgICAgICBfaG92ZXI9e3sgY29sb3I6ICdncmF5LjcwMCcgfX1cbiAgICAgICAgPlxuICAgICAgICAgIE5vIGNvbmZvcnRvIGRhIGNhc2E/OiBwZcOnYSBkZWxpdmVyeSFcbiAgICAgICAgPC9MaW5rPlxuXG4gICAgICAgIDxCdXR0b25cbiAgICAgICAgICB2YXJpYW50PVwibGlua1wiXG4gICAgICAgICAgYmFja2dyb3VuZENvbG9yPVwiZ3JheS43MDBcIlxuICAgICAgICAgIGhlaWdodD1cIjUwcHhcIlxuICAgICAgICAgIGJvcmRlclJhZGl1cz1cInNtXCJcbiAgICAgICAgICBtYXJnaW5Ub3A9ezZ9XG4gICAgICAgICAgX2hvdmVyPXt7IGJhY2tncm91bmRDb2xvcjogJ2dyYXkuOTAwJyB9fVxuICAgICAgICA+XG4gICAgICAgICAgRU5UUkFSXG4gICAgICAgIDwvQnV0dG9uPlxuXG4gICAgICAgIDxUZXh0XG4gICAgICAgICAgdGV4dEFsaWduPVwiY2VudGVyXCJcbiAgICAgICAgICBmb250U2l6ZT1cInNtXCJcbiAgICAgICAgICBjb2xvcj1cImdyYXkuMzAwXCJcbiAgICAgICAgICBtYXJnaW5Ub3A9ezZ9XG4gICAgICAgID5cbiAgICAgICAgICBDb21wYXJ0aWxoYSBvIHNldSBzb3J2ZXRlIGNvbSBhIGdlbnRlIG5vIHtcIiBcIn1cbiAgICAgICAgICA8TGlua1xuICAgICAgICAgICAgaHJlZj1cImh0dHBzOi8vd3d3Lmluc3RhZ3JhbS5jb20vdGFpdGFpYmVsZW0vP2hsPXB0LWJyXCIgaXNFeHRlcm5hbFxuICAgICAgICAgICAgY29sb3I9XCJncmF5LjU1MFwiXG4gICAgICAgICAgICBmb250V2VpZ2h0PVwiYm9sZFwiXG4gICAgICAgICAgICBfaG92ZXI9e3sgY29sb3I6ICdwdXJwbGUuNzAwJyB9fVxuICAgICAgICAgID5cbiAgICAgICAgICAgIEluc3RhZ3JhbSFcbiAgICAgICAgICAgIFxuICAgICAgICAgIDwvTGluaz5cbiAgICAgICAgPC9UZXh0PlxuICAgICAgPC9GbGV4PlxuICAgIDwvR3JpZD5cbiAgKVxufVxuIl0sInNvdXJjZVJvb3QiOiIifQ==
